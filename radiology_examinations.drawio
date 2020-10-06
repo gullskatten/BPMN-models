@@ -1,26 +1,241 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T12:29:21.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="bxilXlADVBkLQzBJVydS" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T13:56:16.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="TmUE8ckLm0NrAQ0lEQs0" version="13.7.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1827" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8SN7werZHuMEjHXAgfj6-5" value="Patient" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="270" width="600" height="110" as="geometry" />
+          <mxGeometry x="40" y="40" width="1840" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="8SN7werZHuMEjHXAgfj6-1" value="Radiology examination process" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="480" width="600" height="330" as="geometry" />
+        <mxCell id="8SN7werZHuMEjHXAgfj6-1" value="Radiology examination request" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="900" height="360" as="geometry" />
         </mxCell>
         <mxCell id="8SN7werZHuMEjHXAgfj6-3" value="Physician" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-1">
-          <mxGeometry x="20" width="580" height="120" as="geometry" />
+          <mxGeometry x="20" width="880" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-15" value="" style="endArrow=block;endFill=1;endSize=6;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-3" source="8SN7werZHuMEjHXAgfj6-10" target="8SN7werZHuMEjHXAgfj6-11">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="130" y="35" as="sourcePoint" />
+            <mxPoint x="230" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8SN7werZHuMEjHXAgfj6-3" source="8SN7werZHuMEjHXAgfj6-30" target="8SN7werZHuMEjHXAgfj6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-34" value="Send examination date" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=message;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-3">
+          <mxGeometry x="790" y="45" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-10" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-3">
+          <mxGeometry x="30" y="55" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-11" value="Write examination request" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-3">
+          <mxGeometry x="100" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-12" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-11">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-30" value="Forward examination date" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-3">
+          <mxGeometry x="620" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-31" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-30">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-42" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-3" source="8SN7werZHuMEjHXAgfj6-11" target="8SN7werZHuMEjHXAgfj6-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="220" as="sourcePoint" />
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-41" value="Examination request" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-3">
+          <mxGeometry x="270" y="22.5" width="70" height="95" as="geometry" />
         </mxCell>
         <mxCell id="8SN7werZHuMEjHXAgfj6-7" value="Radiology Department" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-1">
-          <mxGeometry x="20" y="120" width="580" height="210" as="geometry" />
+          <mxGeometry x="20" y="150" width="880" height="210" as="geometry" />
         </mxCell>
         <mxCell id="8SN7werZHuMEjHXAgfj6-8" value="Radiologist" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-7">
-          <mxGeometry x="20" width="560" height="100" as="geometry" />
+          <mxGeometry x="20" width="860" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="8SN7werZHuMEjHXAgfj6-9" value="Secretary" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-7">
-          <mxGeometry x="20" y="100" width="560" height="110" as="geometry" />
+        <mxCell id="8SN7werZHuMEjHXAgfj6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-8" source="8SN7werZHuMEjHXAgfj6-18" target="8SN7werZHuMEjHXAgfj6-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-23" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SN7werZHuMEjHXAgfj6-22">
+          <mxGeometry x="-0.3043" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-8" source="8SN7werZHuMEjHXAgfj6-18" target="8SN7werZHuMEjHXAgfj6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-27" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SN7werZHuMEjHXAgfj6-26">
+          <mxGeometry x="-0.28" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-28" value="Send examination date letter" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-8">
+          <mxGeometry x="550" y="56" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-29" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-28">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-8" source="8SN7werZHuMEjHXAgfj6-24" target="8SN7werZHuMEjHXAgfj6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-39" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-8" source="8SN7werZHuMEjHXAgfj6-28" target="8SN7werZHuMEjHXAgfj6-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="60" as="sourcePoint" />
+            <mxPoint x="560" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-8" source="8SN7werZHuMEjHXAgfj6-16" target="8SN7werZHuMEjHXAgfj6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-16" value="Evaluate request" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-8">
+          <mxGeometry x="80" y="56" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-17" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-16">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-18" value="Accepted?" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-8">
+          <mxGeometry x="240" y="71.5" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-24" value="Schedule examination date" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-8">
+          <mxGeometry x="380" y="56" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-25" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-24">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-38" value="Examination date letter" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-8">
+          <mxGeometry x="710" y="51" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-20" value="Examination rejected" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=terminate;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-8">
+          <mxGeometry x="330" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8SN7werZHuMEjHXAgfj6-1" source="8SN7werZHuMEjHXAgfj6-11" target="8SN7werZHuMEjHXAgfj6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-1" source="8SN7werZHuMEjHXAgfj6-28" target="8SN7werZHuMEjHXAgfj6-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-40" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0;exitY=0;exitDx=20;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endFill=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="8SN7werZHuMEjHXAgfj6-1" source="8SN7werZHuMEjHXAgfj6-38" target="8SN7werZHuMEjHXAgfj6-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="266" as="sourcePoint" />
+            <mxPoint x="820" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-43" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endFill=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="8SN7werZHuMEjHXAgfj6-1" source="8SN7werZHuMEjHXAgfj6-41" target="8SN7werZHuMEjHXAgfj6-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="230" as="sourcePoint" />
+            <mxPoint x="750" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-36" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8SN7werZHuMEjHXAgfj6-34">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="550" y="200" as="sourcePoint" />
+            <mxPoint x="875" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-37" value="Examination date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SN7werZHuMEjHXAgfj6-36">
+          <mxGeometry x="0.5862" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-45" value="Radiology examination" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="250" width="900" height="556" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-57" value="Radiology Department" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-45">
+          <mxGeometry x="20" width="880" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-58" value="Radiologist" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-57">
+          <mxGeometry x="20" width="860" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-58" source="8SN7werZHuMEjHXAgfj6-70" target="8SN7werZHuMEjHXAgfj6-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-60" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SN7werZHuMEjHXAgfj6-59">
+          <mxGeometry x="-0.3043" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-58" source="8SN7werZHuMEjHXAgfj6-70" target="8SN7werZHuMEjHXAgfj6-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-62" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SN7werZHuMEjHXAgfj6-61">
+          <mxGeometry x="-0.28" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-79" value="Examination attendance" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-58">
+          <mxGeometry x="80" y="70.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-63" value="Send examination date letter" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-58">
+          <mxGeometry x="550" y="56" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-64" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-63">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-58" source="8SN7werZHuMEjHXAgfj6-71" target="8SN7werZHuMEjHXAgfj6-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-66" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-58" source="8SN7werZHuMEjHXAgfj6-63" target="8SN7werZHuMEjHXAgfj6-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="60" as="sourcePoint" />
+            <mxPoint x="560" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8SN7werZHuMEjHXAgfj6-58" source="8SN7werZHuMEjHXAgfj6-79" target="8SN7werZHuMEjHXAgfj6-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.99999999999955" y="96.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-70" value="Is within 15 minutes&lt;br&gt;of examination date?" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-58">
+          <mxGeometry x="240" y="71.5" width="50" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-71" value="Perform examination" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-58">
+          <mxGeometry x="380" y="56" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-72" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-71">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-73" value="Examination date letter" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-58">
+          <mxGeometry x="710" y="51" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-74" value="Examination rejected" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=terminate;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-58">
+          <mxGeometry x="340" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-84" value="Secretary" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-57">
+          <mxGeometry x="20" y="250" width="860" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-46" value="Physician" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="8SN7werZHuMEjHXAgfj6-45">
+          <mxGeometry x="20" y="370" width="880" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-82" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8SN7werZHuMEjHXAgfj6-79">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1115" y="150" as="sourcePoint" />
+            <mxPoint x="885" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SN7werZHuMEjHXAgfj6-83" value="Attend examination" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SN7werZHuMEjHXAgfj6-82">
+          <mxGeometry x="0.5862" relative="1" as="geometry">
+            <mxPoint y="-105.28999999999999" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
