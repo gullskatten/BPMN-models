@@ -1,53 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T12:07:19.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="ZJP15Ppha9O_Jqa2CQVv" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-07T13:52:04.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="z-OkqhhzZDjhzRrYaMtk" version="13.7.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1298" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wCzeHHn4DnTlApi-bYVN-5" value="Bureau of Credit Registration" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="740" width="1090" height="180" as="geometry" />
+          <mxGeometry x="220" y="910" width="1090" height="180" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-6" value="Client" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="30" width="1090" height="120" as="geometry" />
+          <mxGeometry x="220" y="30" width="2020" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-1" value="Mortgage Loan Application Process" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="220" width="2020" height="570" as="geometry" />
+          <mxGeometry x="220" y="220" width="2020" height="610" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-3" value="Broker" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-1">
-          <mxGeometry x="20" width="2000" height="210" as="geometry" />
+          <mxGeometry x="20" width="2000" height="250" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-14" target="wCzeHHn4DnTlApi-bYVN-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wCzeHHn4DnTlApi-bYVN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-31" target="wCzeHHn4DnTlApi-bYVN-25">
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-31" target="wCzeHHn4DnTlApi-bYVN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-25" target="wCzeHHn4DnTlApi-bYVN-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-47" value="Application approved" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=message;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="1355" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-44" value="Application rejected" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=message;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="1170" y="35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-35" value="Application not processed" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=message;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="970" y="35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-31" target="wCzeHHn4DnTlApi-bYVN-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-31" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="590" y="35" width="50" height="50" as="geometry" />
+          <mxGeometry x="600" y="35" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wCzeHHn4DnTlApi-bYVN-22" value="Is amount within mandate of&lt;br&gt;current broker?" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="410" y="35" width="50" height="50" as="geometry" />
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-17" value="Validate application&lt;br&gt;amount" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="290" y="20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-14" value="Receive application" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="60" y="35" width="50" height="50" as="geometry" />
+          <mxGeometry x="190" y="35" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-17" target="wCzeHHn4DnTlApi-bYVN-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wCzeHHn4DnTlApi-bYVN-17" value="Validate application&lt;br&gt;amount" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="200" y="20" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="wCzeHHn4DnTlApi-bYVN-20" value="" style="shape=mxgraph.bpmn.service_task;html=1;outlineConnect=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="208" y="28" width="14" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="wCzeHHn4DnTlApi-bYVN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-31" target="wCzeHHn4DnTlApi-bYVN-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="110" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-22" target="wCzeHHn4DnTlApi-bYVN-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="60" as="targetPoint" />
+            <mxPoint x="740" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-24">
@@ -55,22 +59,115 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-22" value="Is amount within mandate of&lt;br&gt;current broker?" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="475" y="35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-28" target="wCzeHHn4DnTlApi-bYVN-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-33" target="wCzeHHn4DnTlApi-bYVN-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-41" target="wCzeHHn4DnTlApi-bYVN-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1015" y="120" />
+              <mxPoint x="1120" y="120" />
+              <mxPoint x="1120" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-51" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-50">
+          <mxGeometry x="-0.6711" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-28" value="1 week" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=timer;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="690" y="35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-33" value="Reduce interest rate&lt;br&gt;for current loan applicant" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="790" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-57" target="wCzeHHn4DnTlApi-bYVN-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-41" target="wCzeHHn4DnTlApi-bYVN-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-58" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-52">
+          <mxGeometry x="-0.7786" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-57" target="wCzeHHn4DnTlApi-bYVN-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-61" value="Forward application details" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="1510" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-57" value="Send approval" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="1320" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-41" value="Is approved?" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=exclusiveGw;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="990" y="135" width="50" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-25" value="Approve application" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="730" y="20" width="120" height="80" as="geometry" />
+          <mxGeometry x="675" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-26" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-25">
           <mxGeometry width="14" height="14" relative="1" as="geometry">
             <mxPoint x="7" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wCzeHHn4DnTlApi-bYVN-28" value="1 week" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=timer;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
-          <mxGeometry x="590" y="130" width="50" height="50" as="geometry" />
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-3" source="wCzeHHn4DnTlApi-bYVN-22" target="wCzeHHn4DnTlApi-bYVN-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-75" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-74">
+          <mxGeometry x="-0.6748" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="35.83" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-77" value="Forward application&lt;br&gt;request" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-3">
+          <mxGeometry x="290" y="135" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-9" value="BestLoan" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-1">
-          <mxGeometry x="20" y="210" width="2000" height="360" as="geometry" />
+          <mxGeometry x="20" y="250" width="2000" height="360" as="geometry" />
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-10" value="Mortgage dep." style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-9">
           <mxGeometry x="20" width="1980" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-10" source="wCzeHHn4DnTlApi-bYVN-69" target="wCzeHHn4DnTlApi-bYVN-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-69" value="Receive direct &lt;br&gt;application" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-10">
+          <mxGeometry x="50" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-63" value="Application registered" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=message;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-10">
+          <mxGeometry x="1560" y="35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-10" source="wCzeHHn4DnTlApi-bYVN-62" target="wCzeHHn4DnTlApi-bYVN-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-62" value="Register approved application" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-10">
+          <mxGeometry x="1360" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-72" value="Perform credit check" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-10">
+          <mxGeometry x="270" y="15" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-73" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-72">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-11" value="Insurance dep." style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-10">
           <mxGeometry y="120" width="1980" height="120" as="geometry" />
@@ -78,15 +175,76 @@
         <mxCell id="wCzeHHn4DnTlApi-bYVN-12" value="Financial dep." style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="wCzeHHn4DnTlApi-bYVN-11">
           <mxGeometry y="120" width="1980" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-1" source="wCzeHHn4DnTlApi-bYVN-61" target="wCzeHHn4DnTlApi-bYVN-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="wCzeHHn4DnTlApi-bYVN-1" source="wCzeHHn4DnTlApi-bYVN-77" target="wCzeHHn4DnTlApi-bYVN-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-15" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wCzeHHn4DnTlApi-bYVN-14">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="325" y="150" as="sourcePoint" />
+            <mxPoint x="455" y="150" as="sourcePoint" />
             <mxPoint x="380" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wCzeHHn4DnTlApi-bYVN-16" value="Loan application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-15">
           <mxGeometry x="-0.3714" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-39" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wCzeHHn4DnTlApi-bYVN-35">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="335" y="160" as="sourcePoint" />
+            <mxPoint x="1235" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-40" value="Contact BestLoans directly notice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-39">
+          <mxGeometry x="-0.3714" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-45" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wCzeHHn4DnTlApi-bYVN-44">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1135" y="265" as="sourcePoint" />
+            <mxPoint x="1435" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-46" value="Rejection letter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-45">
+          <mxGeometry x="-0.3714" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-48" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wCzeHHn4DnTlApi-bYVN-47">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1345" y="260" as="sourcePoint" />
+            <mxPoint x="1620" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-49" value="Approval letter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-48">
+          <mxGeometry x="-0.3714" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-66" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wCzeHHn4DnTlApi-bYVN-63">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1500" y="260" as="sourcePoint" />
+            <mxPoint x="1845" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-67" value="BestLoan acknowledgement notice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-66">
+          <mxGeometry x="-0.3714" y="-1" relative="1" as="geometry">
+            <mxPoint x="14" y="-213.57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-70" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wCzeHHn4DnTlApi-bYVN-69">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="335" y="150" as="sourcePoint" />
+            <mxPoint x="465" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCzeHHn4DnTlApi-bYVN-71" value="Loan application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wCzeHHn4DnTlApi-bYVN-70">
+          <mxGeometry x="-0.3714" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-76.67" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
