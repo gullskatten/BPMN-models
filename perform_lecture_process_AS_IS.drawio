@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T12:01:29.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="NG4rh8gpFdD8kQgrYmbJ" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T12:04:04.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="xRwSMee39TAMzUudWQeM" version="13.7.9" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
             <mxPoint x="200" y="-74" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E2MfJ3g03w7xL6Gh8cpz-22" value="Start recording" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="E2MfJ3g03w7xL6Gh8cpz-12">
+        <mxCell id="E2MfJ3g03w7xL6Gh8cpz-22" value="Give lecture" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="E2MfJ3g03w7xL6Gh8cpz-12">
           <mxGeometry x="290" y="17" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E2MfJ3g03w7xL6Gh8cpz-23" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="E2MfJ3g03w7xL6Gh8cpz-22">
