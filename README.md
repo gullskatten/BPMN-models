@@ -1,2 +1,2 @@
 # BPMN-models
-Two level 1 notation BPMN models: one for mortgage loan, and one for radiology examinations.
+A few BPMN models used in "Information Systems"-course.
