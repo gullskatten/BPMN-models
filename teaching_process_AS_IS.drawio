@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T12:40:13.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="bcMLtYK-h5NPnnjM9LbF" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T12:41:25.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="YDbgi2AzzKLKza9dRQKA" version="13.7.9" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1426" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -238,6 +238,32 @@
         <mxCell id="fBf08EV4Grh3c670APQM-108" value="Comment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBf08EV4Grh3c670APQM-107">
           <mxGeometry x="0.7305" y="3" relative="1" as="geometry">
             <mxPoint x="3" y="4.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-109" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="270" />
+              <mxPoint x="520" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-110" value="Video" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBf08EV4Grh3c670APQM-109">
+          <mxGeometry x="0.7305" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="-16.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-111" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="fBf08EV4Grh3c670APQM-38">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-112" value="Live lecture stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBf08EV4Grh3c670APQM-111">
+          <mxGeometry x="-0.4286" y="1" relative="1" as="geometry">
+            <mxPoint y="-19.98" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
