@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T11:24:20.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="E7AjTDGQh4EjUleaPlcm" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T11:34:44.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="5PGD8M6vHYZDscXPS7HM" version="13.7.9" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -187,6 +187,31 @@
           <mxGeometry x="0.7305" y="3" relative="1" as="geometry">
             <mxPoint x="1" y="-16.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-83" value="Course" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="340" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-84" value="Student" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="120" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-85" value="Perform peer-review" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="fBf08EV4Grh3c670APQM-84">
+          <mxGeometry x="50" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-86" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;" vertex="1" parent="fBf08EV4Grh3c670APQM-85">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="7" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-87" value="" style="html=1;shape=plus;outlineConnect=0;" vertex="1" parent="fBf08EV4Grh3c670APQM-85">
+          <mxGeometry x="0.5" y="1" width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-7" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-92" value="Piazza" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="560" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-93" value="Slack" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="560" width="320" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
