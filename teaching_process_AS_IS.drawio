@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T11:20:57.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="QxgCSbuEjm2nFi3edm1x" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T11:23:40.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="690ZlLgjst7n8qkJxrDJ" version="13.7.9" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13,13 +13,13 @@
         <mxCell id="fBf08EV4Grh3c670APQM-42" value="Zoom" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="310" width="470" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fBf08EV4Grh3c670APQM-67" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fBf08EV4Grh3c670APQM-42" source="fBf08EV4Grh3c670APQM-38" target="fBf08EV4Grh3c670APQM-42">
+        <mxCell id="fBf08EV4Grh3c670APQM-67" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="fBf08EV4Grh3c670APQM-42" source="fBf08EV4Grh3c670APQM-38">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="390" y="255" as="sourcePoint" />
-            <mxPoint x="362.5" y="130" as="targetPoint" />
+            <mxPoint x="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="320" y="-50" />
-              <mxPoint x="353" y="-50" />
+              <mxPoint x="320" y="-30" />
+              <mxPoint x="320" y="-30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -174,6 +174,21 @@
         <mxCell id="fBf08EV4Grh3c670APQM-80" value="Recorded lecture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBf08EV4Grh3c670APQM-79">
           <mxGeometry x="0.4286" relative="1" as="geometry">
             <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-81" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="540" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="270" />
+              <mxPoint x="540" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBf08EV4Grh3c670APQM-82" value="Voice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fBf08EV4Grh3c670APQM-81">
+          <mxGeometry x="0.7305" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="-16.5" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
