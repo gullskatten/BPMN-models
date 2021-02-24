@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T21:44:41.317Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="F2Vjn5CX1Nklt74V4Mno" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T21:46:35.760Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Ozt3qytfZfhPjMPYSyvo" version="14.3.0" type="github">
   <diagram id="UbCPcvhUC4N1hX7AJckq" name="Page-1">
     <mxGraphModel dx="895" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,14 +220,6 @@
         <mxCell id="wzo7vh88ep_ksWhKX13a-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wzo7vh88ep_ksWhKX13a-73" target="wzo7vh88ep_ksWhKX13a-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wzo7vh88ep_ksWhKX13a-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.587;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.148;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wzo7vh88ep_ksWhKX13a-73" target="wzo7vh88ep_ksWhKX13a-75">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1308" y="540" />
-              <mxPoint x="1190" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wzo7vh88ep_ksWhKX13a-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wzo7vh88ep_ksWhKX13a-73" target="wzo7vh88ep_ksWhKX13a-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -238,9 +230,6 @@
         </mxCell>
         <mxCell id="wzo7vh88ep_ksWhKX13a-73" value="Game Server API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1290" y="555" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wzo7vh88ep_ksWhKX13a-75" value="Game Server &lt;br&gt;Exchange" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="460" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wzo7vh88ep_ksWhKX13a-79" value="Create Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1290" y="670" width="120" height="60" as="geometry" />
