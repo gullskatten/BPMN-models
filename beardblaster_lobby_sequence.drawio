@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T18:40:52.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Va9s-matAFV079EUDgJ8" version="13.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-27T18:41:41.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6YsxmuuVTEPiLhIrYqNa" version="13.7.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Create Game">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,31 +176,10 @@
         <mxCell id="G8CXcR0IVf8b9GrvJtcm-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=1;" vertex="1" parent="G8CXcR0IVf8b9GrvJtcm-54">
           <mxGeometry x="45" y="193" width="10" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=1;" vertex="1" parent="G8CXcR0IVf8b9GrvJtcm-54">
-          <mxGeometry x="45" y="430" width="10" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=1;" vertex="1" parent="G8CXcR0IVf8b9GrvJtcm-54">
-          <mxGeometry x="45" y="770" width="10" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=1;" vertex="1" parent="G8CXcR0IVf8b9GrvJtcm-54">
-          <mxGeometry x="45" y="630" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-58" value="setCurrentGame(Game)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.1;exitY=0.889;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-37" target="G8CXcR0IVf8b9GrvJtcm-55">
+        <mxCell id="G8CXcR0IVf8b9GrvJtcm-58" value="setIsHost(true)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.1;exitY=0.889;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-37" target="G8CXcR0IVf8b9GrvJtcm-55">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="330" y="390" as="sourcePoint" />
             <mxPoint x="410" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-60" value="getCurrentGame()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.1;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.057;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-41" target="G8CXcR0IVf8b9GrvJtcm-59">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="310" y="570" as="sourcePoint" />
-            <mxPoint x="360" y="670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-62" value="game" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-59" target="G8CXcR0IVf8b9GrvJtcm-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="685" as="targetPoint" />
-            <mxPoint x="575" y="686" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G8CXcR0IVf8b9GrvJtcm-67" value="subscribeToLobbyUpdates(game.id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="G8CXcR0IVf8b9GrvJtcm-66" parent="1">
@@ -224,29 +203,11 @@
             <mxPoint x="665" y="476" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-78" value="setCurrentGame(null)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.765;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="G8CXcR0IVf8b9GrvJtcm-77" source="G8CXcR0IVf8b9GrvJtcm-75">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="366" y="833.125" as="sourcePoint" />
-            <mxPoint x="410" y="887" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="G8CXcR0IVf8b9GrvJtcm-81" value="cancelLobbyWithId(game.id)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.2;entryY=0.025;exitX=1.1;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-75" target="G8CXcR0IVf8b9GrvJtcm-76">
           <mxGeometry x="0.3085" relative="1" as="geometry">
             <mxPoint x="400" y="770" as="sourcePoint" />
             <mxPoint x="588" y="770" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-82" value="getCurrentGame()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.1;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-75" target="G8CXcR0IVf8b9GrvJtcm-83">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="361" y="780" as="sourcePoint" />
-            <mxPoint x="230" y="780.02" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="G8CXcR0IVf8b9GrvJtcm-84" value="game" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.1;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.215;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-83" target="G8CXcR0IVf8b9GrvJtcm-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="612.06" as="targetPoint" />
-            <mxPoint x="245" y="612" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G8CXcR0IVf8b9GrvJtcm-86" value="firestore.collection(&quot;games&quot;)&lt;br&gt;.document(id).delete()" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.2;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G8CXcR0IVf8b9GrvJtcm-76" target="G8CXcR0IVf8b9GrvJtcm-85">
