@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T12:23:40.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.11" etag="KO5ZUBXMbhlh7zho-BJQ" type="github"><diagram id="CwfAy1DjLmSOPPgn2r3O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-11T17:51:40.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="KMJ7GtgOppM-AS9xVzdQ" version="14.6.11" type="github">
+  <diagram id="CwfAy1DjLmSOPPgn2r3O" name="Page-1">
+    <mxGraphModel dx="1298" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rELawaHSVXE-78U_JIUP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-1" target="rELawaHSVXE-78U_JIUP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-1" value="Malicious Code&amp;nbsp;&lt;br&gt;Insertion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-2" target="rELawaHSVXE-78U_JIUP-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-2" value="Inject malicious code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-4" target="rELawaHSVXE-78U_JIUP-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-4" value="Upload malicious file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-9" target="rELawaHSVXE-78U_JIUP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-9" value="Stored XSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-11" value="SQL Injection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-14" value="Activate file (if runnable)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-23" target="rELawaHSVXE-78U_JIUP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-23" target="rELawaHSVXE-78U_JIUP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-23" value="OR" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="625" y="280" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-24" target="rELawaHSVXE-78U_JIUP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-24" target="rELawaHSVXE-78U_JIUP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-24" value="AND" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="853.5" y="585" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="137" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-32" value="" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="287" y="172.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-33" value="AND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="192.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-34" value="OR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="312" y="167.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-35" value="" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="287" y="197.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-37" value="&lt;b&gt;LEGEND&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="287" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-38" value="Monitor file activation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="799" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-41" target="rELawaHSVXE-78U_JIUP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-41" target="rELawaHSVXE-78U_JIUP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-41" target="rELawaHSVXE-78U_JIUP-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-41" value="OR" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="425" y="410" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-45" target="rELawaHSVXE-78U_JIUP-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-45" value="Reflected XSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-49" value="Forward malicious content link" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-52" target="rELawaHSVXE-78U_JIUP-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-52" target="rELawaHSVXE-78U_JIUP-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-52" value="OR" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" vertex="1" parent="1">
+          <mxGeometry x="865" y="410" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-59" target="rELawaHSVXE-78U_JIUP-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="550" />
+              <mxPoint x="859" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-59" value="Upload file from application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rELawaHSVXE-78U_JIUP-60" target="rELawaHSVXE-78U_JIUP-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="550" />
+              <mxPoint x="859" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rELawaHSVXE-78U_JIUP-60" value="Send malicious file via support ticket / e-mail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
