@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T14:45:18.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="7lD64kjf0j396vQYkW6c" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T14:47:28.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="XpDWJo7pg6vitTcd1hJa" version="15.7.1" type="github">
   <diagram id="jIUITmyzeD87ZEfBDrSX" name="Page-1">
-    <mxGraphModel dx="895" dy="990" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="469" math="0" shadow="0">
+    <mxGraphModel dx="1082" dy="1099" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="469" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,11 +177,11 @@
         <mxCell id="8Pe6dOlYgh1ihYA8Ivlo-162" value="Analysis &lt;br&gt;Discovery &lt;br&gt;Queue" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="68.5" y="-409" width="110" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="8Pe6dOlYgh1ihYA8Ivlo-169" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Analysis Collector&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="97" y="-252" width="150" height="32" as="geometry" />
+        <mxCell id="8Pe6dOlYgh1ihYA8Ivlo-169" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Analysis Progress State&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="48" y="-253" width="202" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8Pe6dOlYgh1ihYA8Ivlo-170" value="Redis&lt;br&gt;Cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3.5" y="-246" width="60" height="80" as="geometry" />
+          <mxGeometry x="3.5" y="-221" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8Pe6dOlYgh1ihYA8Ivlo-177" value="(Sensor)&lt;br&gt;Data" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="430" y="-404" width="100" height="60" as="geometry" />
