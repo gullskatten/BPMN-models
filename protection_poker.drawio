@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T12:25:07.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="Fi4_tceSqZw4Qgos2NLb" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T12:37:50.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="zAml6JY7-fkUA4vi9iMx" version="16.6.6" type="github">
   <diagram name="Page-1" id="5348f1db-0dfa-24cf-5d06-2057accb5106">
     <mxGraphModel dx="1351" dy="2594.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -40,11 +40,11 @@
             <mxPoint x="1029" y="982" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="55dd390204d0f602-12" value="Identifying" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="385" y="722" width="240" height="60" as="geometry" />
+        <mxCell id="55dd390204d0f602-12" value="Identifying uses of data" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="255" y="723" width="435" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="55dd390204d0f602-13" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;" parent="1" vertex="1">
-          <mxGeometry x="240" y="802" width="535" height="130" as="geometry" />
+        <mxCell id="55dd390204d0f602-13" value="Where are the data sources used? (Read from, updated, deleted, created)" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;" parent="1" vertex="1">
+          <mxGeometry x="240" y="802" width="535" height="38" as="geometry" />
         </mxCell>
         <mxCell id="55dd390204d0f602-14" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#FEF15B;strokeWidth=4;fillColor=none;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="255" y="1052" width="200" height="200" as="geometry" />
@@ -108,6 +108,9 @@
         </mxCell>
         <mxCell id="3tE7MyT1pkHbfJzvaQT5-10" value="&lt;span style=&quot;font-size: 18px&quot;&gt;What asset does this data describe? Where does it come from?&lt;/span&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;" vertex="1" parent="1">
           <mxGeometry x="475" y="435" width="535" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3tE7MyT1pkHbfJzvaQT5-11" value="In the identified uses, which of these are most exposed to an attack?" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="838.5" width="535" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
