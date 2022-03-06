@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T10:53:33.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0A6EE7lCG6737cIpWOTQ" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T11:29:02.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="L5Hm6LZhKg8rAcCU0BH1" version="16.6.6" type="github">
   <diagram name="Page-1" id="5348f1db-0dfa-24cf-5d06-2057accb5106">
-    <mxGraphModel dx="2766" dy="2642.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2596" dy="3265.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="55dd390204d0f602-3" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#1A1A1A;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
-          <mxGeometry width="1220" height="1560" as="geometry" />
+        <mxCell id="55dd390204d0f602-3" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#FFFFFF;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="10" width="1220" height="2430" as="geometry" />
         </mxCell>
-        <mxCell id="55dd390204d0f602-1" value="&lt;font style=&quot;font-size: 124px&quot; face=&quot;Lobster&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Lobster&quot; color=&quot;#ffd966&quot;&gt;Protection Poker&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#333333;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
-          <mxGeometry y="-199.5" width="1220" height="200" as="geometry" />
+        <mxCell id="55dd390204d0f602-1" value="&lt;font style=&quot;font-size: 124px&quot; face=&quot;Lobster&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Lobster&quot; color=&quot;#6600cc&quot;&gt;Protection Poker&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#FFFFFF;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-199.5" width="1220" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="55dd390204d0f602-5" value="" style="endArrow=none;html=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#F49731;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;strokeWidth=16;" parent="1" edge="1">
-          <mxGeometry x="10" y="190" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="35" y="821" as="sourcePoint" />
-            <mxPoint x="1185" y="820" as="targetPoint" />
+        <mxCell id="55dd390204d0f602-5" value="" style="endArrow=none;html=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#F49731;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;strokeWidth=16;startArrow=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="819" as="sourcePoint" />
+            <mxPoint x="1160" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;endArrow=block;endFill=1;strokeColor=#FFD966;strokeWidth=4;" edge="1" parent="1" source="55dd390204d0f602-6" target="w6yaQcpusODNISTfGhFw-8">
+        <mxCell id="w6yaQcpusODNISTfGhFw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;" edge="1" parent="1" source="55dd390204d0f602-6" target="w6yaQcpusODNISTfGhFw-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="55dd390204d0f602-6" value="Opening Discussion" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="55dd390204d0f602-6" value="Opening Discussions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#6600CC;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="500" y="330" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="55dd390204d0f602-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Discuss the selected data sources.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;What asset does this data describe?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;Where does it come from?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;Where will it be read or updated?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;" parent="1" vertex="1">
+        <mxCell id="55dd390204d0f602-8" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Discuss the selected data sources.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;What asset does this data describe?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;Where does it come from?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;Where will it be read or updated?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="500" y="440" width="535" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFD966;endArrow=block;endFill=1;strokeWidth=4;" edge="1" parent="1" source="3tE7MyT1pkHbfJzvaQT5-1" target="55dd390204d0f602-6">
+        <mxCell id="w6yaQcpusODNISTfGhFw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#F49731;endArrow=block;endFill=1;strokeWidth=4;dashed=1;" edge="1" parent="1" source="3tE7MyT1pkHbfJzvaQT5-1" target="55dd390204d0f602-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1030" y="110" />
@@ -33,19 +33,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3tE7MyT1pkHbfJzvaQT5-1" value="Preliminary Meeting" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#FFD966;strokeWidth=4;fillColor=#1A1A1A;fontFamily=Helvetica;fontSize=30;align=center;fontStyle=1;fontColor=#F7F7F7;" parent="1" vertex="1">
-          <mxGeometry x="500" y="80" width="400" height="60" as="geometry" />
+        <mxCell id="3tE7MyT1pkHbfJzvaQT5-1" value="Preliminary Meeting" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;fontFamily=Helvetica;fontSize=30;align=center;fontStyle=1;fontColor=#F7F7F7;" parent="1" vertex="1">
+          <mxGeometry x="265" y="80" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3tE7MyT1pkHbfJzvaQT5-4" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 5 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=center;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="3tE7MyT1pkHbfJzvaQT5-4" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 5 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=center;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="500" y="405" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="3tE7MyT1pkHbfJzvaQT5-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Discuss briefly the security implications for the data sources.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Who would be interested in this data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What could an attacker do if they got a hold&lt;br&gt;of the data —and stole, deleted, or corrupted the data?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What damage could an insider do through this functionality, particularly if he or she could bypass the user interface?”&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2018px%26quot%3B%26gt%3BDiscuss%20briefly%20the%20security%20implications%20for%20the%20data%20sources.%26amp%3Bnbsp%3B%26lt%3B%2Fspan%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3BspacingTop%3D-5%3BfillColor%3D%23ffffff%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BfontSize%3D14%3BfontFamily%3DHelvetica%3BfillColor%3Dnone%3BstrokeColor%3Dnone%3Brounded%3D0%3Bshadow%3D0%3Bdashed%3D0%3BfontColor%3D%23FEF15B%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22474.5%22%20y%3D%22475%22%20width%3D%22535%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;" parent="1" vertex="1">
+        <mxCell id="3tE7MyT1pkHbfJzvaQT5-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Discuss briefly the security implications for the data sources.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Who would be interested in this data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What could an attacker do if they got a hold&lt;br&gt;of the data —and stole, deleted, or corrupted the data?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What damage could an insider do through this functionality, particularly if he or she could bypass the user interface?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="500" y="613" width="535" height="197" as="geometry" />
         </mxCell>
-        <mxCell id="3tE7MyT1pkHbfJzvaQT5-8" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 10 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="3tE7MyT1pkHbfJzvaQT5-8" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 10 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="500" y="578" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-4" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="1">
+        <mxCell id="w6yaQcpusODNISTfGhFw-4" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="37.5" y="30" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="55dd390204d0f602-2" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#FEF15B;strokeWidth=4;fillColor=none;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="w6yaQcpusODNISTfGhFw-4" vertex="1">
@@ -57,25 +57,81 @@
         <mxCell id="w6yaQcpusODNISTfGhFw-5" value="&lt;font face=&quot;Lobster&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=124;fontColor=#FFFFFF;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="w6yaQcpusODNISTfGhFw-4">
           <mxGeometry x="70" y="85" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-6" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 30 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=center;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;verticalAlign=top;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="500" y="153" width="100" height="35" as="geometry" />
+        <mxCell id="w6yaQcpusODNISTfGhFw-6" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 30 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=center;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;verticalAlign=top;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="265" y="160" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Start with determining the scope of the Protection Poker session.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Which new data sources are introduced this iteration?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Which data sources should be in focus?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#FEF15B;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="500" y="188" width="530" height="112" as="geometry" />
+        <mxCell id="w6yaQcpusODNISTfGhFw-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Start with determining the scope of the next Protection Poker session.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Which new data sources are introduced this iteration?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Which data sources should be in focus?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="265" y="195" width="575" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;endArrow=block;endFill=1;strokeColor=#FFD966;strokeWidth=4;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-8" target="w6yaQcpusODNISTfGhFw-9">
+        <mxCell id="w6yaQcpusODNISTfGhFw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-8" target="w6yaQcpusODNISTfGhFw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;strokeColor=#FFD966;fillColor=#F49731;" vertex="1" parent="1">
-          <mxGeometry x="420" y="410" width="30" height="30" as="geometry" />
+        <mxCell id="w6yaQcpusODNISTfGhFw-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;strokeColor=none;fillColor=#6600CC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;endArrow=block;endFill=1;strokeColor=#FFD966;strokeWidth=4;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-9">
+        <mxCell id="w6yaQcpusODNISTfGhFw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#333333;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-9" target="w6yaQcpusODNISTfGhFw-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="465" y="890" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w6yaQcpusODNISTfGhFw-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;strokeColor=#FFD966;fillColor=#F49731;" vertex="1" parent="1">
-          <mxGeometry x="420" y="578" width="30" height="30" as="geometry" />
+        <mxCell id="w6yaQcpusODNISTfGhFw-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;strokeColor=none;fillColor=#6600CC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="578" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-14" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Value of data source:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What is the most valuable data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What is the least valuable data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Assign a value of &quot;100&quot; to the most valuable data source, and &quot;&amp;lt;10&quot; to the least valuable data source.&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;E.g., the &quot;User&quot; table is assigned 100 points, and the &quot;Trace&quot; table is assigned &amp;lt;10 points.&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1260" width="420" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-16" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Ease of attack of data source:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What is the most exposed data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What is the least exposed data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Assign a value of &quot;100&quot; to the most exposed data source, and &quot;&amp;lt;10&quot; to the least exposed data source.&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;E.g., the &quot;Comment&quot; table is assigned 100 points, and the &quot;Country&quot; table is assigned &amp;lt;10 points.&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1260" width="430" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-18" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="990" y="854" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-19" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#FEF15B;strokeWidth=4;fillColor=none;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="w6yaQcpusODNISTfGhFw-18">
+          <mxGeometry width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-20" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="w6yaQcpusODNISTfGhFw-18">
+          <mxGeometry x="15" y="15" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-21" value="&lt;font face=&quot;Lobster&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=124;fontColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="w6yaQcpusODNISTfGhFw-18">
+          <mxGeometry x="70" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#333333;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-23" target="w6yaQcpusODNISTfGhFw-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-23" value="Data Source Value" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="1183.5" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#333333;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="1213" />
+              <mxPoint x="1140" y="1630" />
+              <mxPoint x="980" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-25" value="Data Source Exposure" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#F49731;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="1183.5" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-27" value="10 min" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="930" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-28" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Identify the most and least valuable and exposed data sources in the system. Identifying these will help estimation efforts later.&lt;/span&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="965" width="382.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#333333;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w6yaQcpusODNISTfGhFw-29" target="w6yaQcpusODNISTfGhFw-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="890" />
+              <mxPoint x="80" y="1213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w6yaQcpusODNISTfGhFw-29" value="Calibration" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#6600CC;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="860" width="266.25" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
