@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T21:12:10.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="fGFrvvHr_4jvB7fPs-mJ" version="16.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-08T23:08:00.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="uopoPVD8WkdnjJuL__i_" version="16.6.8" type="github" pages="3">
   <diagram id="p9IwRbp5fxrojXkzUZGU" name="Protection Poker">
-    <mxGraphModel dx="1639" dy="1979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1360" dy="2456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-0" />
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-1" parent="BJfxRbS1eX1y7sTFq7pi-0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="410" y="258" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Discuss the selected data sources.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;What asset does this data describe?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;Where does it come from?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;Where will it be read or updated?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
-          <mxGeometry x="410.5" y="405" width="535" height="120" as="geometry" />
+          <mxGeometry x="410.5" y="378" width="535" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#6600CC;endArrow=block;endFill=1;strokeWidth=4;dashed=1;" parent="BJfxRbS1eX1y7sTFq7pi-1" source="BJfxRbS1eX1y7sTFq7pi-9" target="BJfxRbS1eX1y7sTFq7pi-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -36,14 +36,8 @@
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-9" value="Scoping" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#6600CC;strokeWidth=4;fillColor=none;fontFamily=Helvetica;fontSize=30;align=center;fontStyle=1;fontColor=#6600CC;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
           <mxGeometry x="413.44" y="70" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BJfxRbS1eX1y7sTFq7pi-10" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 5 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=center;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;verticalAlign=top;fontStyle=1" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
-          <mxGeometry x="410.5" y="370" width="100" height="35" as="geometry" />
-        </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-11" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Discuss briefly the security implications for the data sources.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Who would be interested in this data source?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What could an attacker/insider do if they got a hold&lt;br&gt;of the data —and stole, deleted, or corrupted the data?&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;What could the consequences be if the data source was tampered with?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
-          <mxGeometry x="410.5" y="595" width="520" height="165" as="geometry" />
-        </mxCell>
-        <mxCell id="BJfxRbS1eX1y7sTFq7pi-12" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&amp;lt; 15 min&lt;/font&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=24;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;verticalAlign=top;fontStyle=1" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
-          <mxGeometry x="410.5" y="560" width="170" height="35" as="geometry" />
+          <mxGeometry x="410.5" y="565" width="520" height="165" as="geometry" />
         </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Start with determining the scope of the Protection Poker session.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;Which data sources should be the focus of the Protection Poker session?&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;fontStyle=0" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
           <mxGeometry x="413.44" y="146" width="575" height="112" as="geometry" />
@@ -997,7 +991,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-1" id="Ex5ZtNwlKX56DYvL06_k">
-    <mxGraphModel dx="3776" dy="2509.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3838" dy="3040.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-0" style=";html=1;" />
         <mxCell id="2pSDtXnfEeGG0ICxocEa-1" style=";html=1;" parent="2pSDtXnfEeGG0ICxocEa-0" />
@@ -1321,10 +1315,9 @@
         <mxCell id="2pSDtXnfEeGG0ICxocEa-79" value="Weather Type (string)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
           <mxGeometry x="-360" y="1100" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2pSDtXnfEeGG0ICxocEa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-82" target="2pSDtXnfEeGG0ICxocEa-84" edge="1">
+        <mxCell id="2pSDtXnfEeGG0ICxocEa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;startArrow=none;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-86" target="2pSDtXnfEeGG0ICxocEa-84" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-490" y="-50" />
               <mxPoint x="-490" y="330" />
             </Array>
           </mxGeometry>
@@ -1338,7 +1331,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-82" value="What does the data from this source describe? STID contains information (tags) about an installation. Physical location, and what the properties of the installed components should be." style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-970" y="-135" width="430" height="160" as="geometry" />
+          <mxGeometry x="-1000" y="-340" width="430" height="160" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=24;fontColor=#6600CC;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-84" target="2pSDtXnfEeGG0ICxocEa-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1358,9 +1351,6 @@
               <mxPoint x="-490" y="330" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="2pSDtXnfEeGG0ICxocEa-86" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Where is STID used internally? In 3D model. Click a tag in the model to see the metadata.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-940" y="510" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-87" value="id (string)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
           <mxGeometry x="-360" y="1002.75" width="210" height="70" as="geometry" />
@@ -1624,7 +1614,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-174" value="Who provides the content for these metadata? Contractors? Equinor employees?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-930" y="178" width="280" height="100" as="geometry" />
+          <mxGeometry x="-925" y="510" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-176" target="2pSDtXnfEeGG0ICxocEa-17" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1636,13 +1626,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-176" value="How do you authenticate to this API?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-400" y="450" width="280" height="110" as="geometry" />
+          <mxGeometry x="-395" y="420" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-178" target="2pSDtXnfEeGG0ICxocEa-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-178" value="&lt;font style=&quot;font-size: 19px&quot;&gt;How often is this api called? How much data is returned? &lt;br&gt;(Runtime when someone clicks)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-930" y="280" width="290" height="90" as="geometry" />
+          <mxGeometry x="-950" y="200" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-180" target="2pSDtXnfEeGG0ICxocEa-17" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1680,7 +1670,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-185" value="Who are the target users of the data?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-930" y="56" width="280" height="100" as="geometry" />
+          <mxGeometry x="-950" y="-40" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-187" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1700,13 +1690,13 @@
           <mxGeometry x="-850" y="680" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-189" value="I: Could attempts at data tampering be detected? (How? Redundancy? Who could discover it?)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-840" y="821.5" width="280" height="110" as="geometry" />
+          <mxGeometry x="-850" y="870" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-190" value="A: What consequences (for users/systems) could it have if data is missing (tag deleted)? Your system only displaying partial info?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-850" y="950" width="280" height="140" as="geometry" />
+          <mxGeometry x="-850" y="991.5" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-191" value="I: Consequence if data is wrong?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-840" y="1135" width="280" height="110" as="geometry" />
+          <mxGeometry x="-850" y="1151.5" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-194" value="&lt;span style=&quot;font-size: 24px&quot;&gt;STRIDE on this data source&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
           <mxGeometry x="-1290" y="235" width="290" height="170" as="geometry" />
@@ -1718,7 +1708,7 @@
           <mxGeometry x="1420" y="235" width="420" height="767" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-198" value="&lt;span style=&quot;font-size: 19px&quot;&gt;Who are the treat actors? (perhaps ask this after some other questions. Based on consequences? Source of data?)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
-          <mxGeometry x="-930" y="-360" width="270" height="190" as="geometry" />
+          <mxGeometry x="-1150" y="686.5" width="270" height="190" as="geometry" />
         </mxCell>
         <mxCell id="2pSDtXnfEeGG0ICxocEa-199" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Goal of activity: Does the data source carry risk?&lt;br&gt;&lt;br&gt;&lt;br&gt;Evaluation: Which questions were important to ask? Which questions sparked discussion that led to discovering if it is risky or not. Which questions were not of much value? Can answer our RQ1.1 in determining which characteristics increase the risk.&lt;br&gt;&lt;br&gt;Output: Determine if data source has risk, what mitigations can be done, or if they accept the level of risk. Documented&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;fontStyle=0" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
           <mxGeometry x="1400" y="-210" width="580" height="240" as="geometry" />
@@ -1827,6 +1817,18 @@
         </mxCell>
         <mxCell id="1EupQKeliEXBS_p1Fn3f-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lobster;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLobster;fontSize=124;fontColor=#FFFFFF;strokeColor=none;fillColor=#6600CC;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
           <mxGeometry x="3150" y="1785" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2pSDtXnfEeGG0ICxocEa-86" value="&lt;font style=&quot;font-size: 19px&quot;&gt;Where is STID used internally? In 3D model. Click a tag in the model to see the metadata.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontColor=#6600CC;strokeColor=#6600CC;fillColor=default;" parent="2pSDtXnfEeGG0ICxocEa-1" vertex="1">
+          <mxGeometry x="-980" y="-160" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="O6OMe00d2AUm00svcUcv-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=19;endArrow=none;endFill=0;strokeColor=#6600CC;strokeWidth=2;" edge="1" parent="2pSDtXnfEeGG0ICxocEa-1" source="2pSDtXnfEeGG0ICxocEa-82" target="2pSDtXnfEeGG0ICxocEa-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-490" y="-50" />
+            </Array>
+            <mxPoint x="-784.909090909091" y="-180" as="sourcePoint" />
+            <mxPoint x="-330" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
