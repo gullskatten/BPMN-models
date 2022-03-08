@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T14:24:02.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="8pNY52tNodk8Nv0Cc3dJ" version="16.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-08T14:28:52.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Kpflwjlxp7tNfQBNqXf7" version="16.6.6" type="github" pages="3">
   <diagram name="Page-1" id="5348f1db-0dfa-24cf-5d06-2057accb5106">
     <mxGraphModel dx="2537" dy="2509.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1749,8 +1749,8 @@
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-50" value="Analyze Results" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#6600CC;gradientColor=none;fontFamily=Helvetica;fontSize=30;fontColor=#FFFFFF;align=center;fontStyle=1" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
           <mxGeometry x="419.69" y="2140" width="423.12" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BJfxRbS1eX1y7sTFq7pi-51" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Risk = (the sum of the value of all assets that could be exploited with a successful attack) * (the exposure value). Show in Excel sheet one by one.&lt;/span&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
-          <mxGeometry x="168.75" y="2343" width="382.5" height="120" as="geometry" />
+        <mxCell id="BJfxRbS1eX1y7sTFq7pi-51" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Risk = (the fields value ) * (the exposure value). Show in Excel sheet one by one.&lt;/span&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
+          <mxGeometry x="160" y="2338" width="382.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#CC0066;endArrow=block;endFill=1;strokeColor=#F49731;strokeWidth=4;" parent="BJfxRbS1eX1y7sTFq7pi-1" source="BJfxRbS1eX1y7sTFq7pi-53" target="BJfxRbS1eX1y7sTFq7pi-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1762,7 +1762,7 @@
           <mxGeometry x="580" y="2263" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-55" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Any data that should be monitored? Other measures that can decrease the risk? Write down which data should be protected, and how.&lt;/span&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
-          <mxGeometry x="600" y="2343" width="382.5" height="120" as="geometry" />
+          <mxGeometry x="580" y="2338" width="382.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-56" value="Evaluate session" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#6600CC;strokeWidth=4;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=30;align=center;fontStyle=1;fontColor=#6600CC;" parent="BJfxRbS1eX1y7sTFq7pi-1" vertex="1">
           <mxGeometry x="510" y="2540" width="320" height="60" as="geometry" />
