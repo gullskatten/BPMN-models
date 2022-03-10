@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T13:29:37.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="KKkf2DW18hz8-Adjh3nn" version="17.0.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-10T14:43:11.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="xnFoe4RRX0Mtd9gM0_ba" version="17.0.0" type="github" pages="6">
   <diagram id="p9IwRbp5fxrojXkzUZGU" name="Protection Poker">
-    <mxGraphModel dx="3709" dy="3329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3709" dy="3166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-0" />
         <mxCell id="BJfxRbS1eX1y7sTFq7pi-1" parent="BJfxRbS1eX1y7sTFq7pi-0" />
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Full DPP" id="ExXSrvqFVTh5v97WXuQn">
-    <mxGraphModel dx="2884" dy="2849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="2722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NqWNPHAbfOI8lqnvCR6U-0" />
         <mxCell id="NqWNPHAbfOI8lqnvCR6U-1" parent="NqWNPHAbfOI8lqnvCR6U-0" />
@@ -524,7 +524,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Mini DPP" id="c-2SiKkuOx0GtQ25cCb1">
-    <mxGraphModel dx="2884" dy="2849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="2722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="o4S7IhhKO7sKTb8eB5Ju-0" />
         <mxCell id="o4S7IhhKO7sKTb8eB5Ju-1" parent="o4S7IhhKO7sKTb8eB5Ju-0" />
@@ -708,7 +708,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Mini DPP Norsk" id="s6EDqTXCn7XatSKBfu4L">
-    <mxGraphModel dx="2884" dy="2849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="2722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4drrDheKnW3lvj69P2LZ-0" />
         <mxCell id="4drrDheKnW3lvj69P2LZ-1" parent="4drrDheKnW3lvj69P2LZ-0" />
