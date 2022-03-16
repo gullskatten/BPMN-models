@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T09:47:38.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="FqbEr6yO2VrMZK6npSwU" version="17.1.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-16T16:00:24.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="DH_AryhSXRP4DDamWJVa" version="17.1.2" type="github" pages="6">
   <diagram id="p9IwRbp5fxrojXkzUZGU" name="Protection Poker">
     <mxGraphModel dx="1298" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Full DPP" id="ExXSrvqFVTh5v97WXuQn">
-    <mxGraphModel dx="1298" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1997" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NqWNPHAbfOI8lqnvCR6U-0" />
         <mxCell id="NqWNPHAbfOI8lqnvCR6U-1" parent="NqWNPHAbfOI8lqnvCR6U-0" />
@@ -490,7 +490,7 @@
         <mxCell id="NqWNPHAbfOI8lqnvCR6U-62" value="&lt;font face=&quot;Lobster&quot; style=&quot;font-size: 48px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=124;fontColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="NqWNPHAbfOI8lqnvCR6U-60" vertex="1">
           <mxGeometry x="19.25" y="20" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NqWNPHAbfOI8lqnvCR6U-64" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;When estimating the likelihood of tampered values,&lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt; ask the following:&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;What is the consequence if this field is missing or is tampered with?&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;See&amp;nbsp;&lt;font color=&quot;#6600cc&quot;&gt;&lt;b&gt;Cheat Sheet&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;color: rgb(102 , 0 , 204) ; font-size: 18px ; font-style: italic&quot;&gt;&lt;b&gt;#4&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;for more examples.&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="NqWNPHAbfOI8lqnvCR6U-1" vertex="1">
+        <mxCell id="NqWNPHAbfOI8lqnvCR6U-64" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;When estimating the likelihood of tampered values,&lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt; ask the following:&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;What is the possibility of providing malicious input to this field?&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;See&amp;nbsp;&lt;font color=&quot;#6600cc&quot;&gt;&lt;b&gt;Cheat Sheet&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;color: rgb(102 , 0 , 204) ; font-size: 18px ; font-style: italic&quot;&gt;&lt;b&gt;#4&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px ; font-style: italic&quot;&gt;for more examples.&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=14;fontFamily=Helvetica;fillColor=none;strokeColor=none;rounded=0;shadow=0;dashed=0;fontColor=#333333;" parent="NqWNPHAbfOI8lqnvCR6U-1" vertex="1">
           <mxGeometry x="716.2" y="1265" width="411" height="180" as="geometry" />
         </mxCell>
         <mxCell id="NqWNPHAbfOI8lqnvCR6U-65" value="" style="group" parent="NqWNPHAbfOI8lqnvCR6U-1" vertex="1" connectable="0">
@@ -524,7 +524,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Mini DPP" id="c-2SiKkuOx0GtQ25cCb1">
-    <mxGraphModel dx="2884" dy="2849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4591" dy="3560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="o4S7IhhKO7sKTb8eB5Ju-0" />
         <mxCell id="o4S7IhhKO7sKTb8eB5Ju-1" parent="o4S7IhhKO7sKTb8eB5Ju-0" />
