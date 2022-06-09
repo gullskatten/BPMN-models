@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T20:41:56.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="9lCJE4jglEM-uXcZ5XYS" version="18.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-09T20:48:37.596Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hwYg_lt9RcPMkonD9JIw" version="18.2.1" type="github" pages="3">
   <diagram id="jIUITmyzeD87ZEfBDrSX" name="Page-1">
     <mxGraphModel dx="1998" dy="1233" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="469" math="0" shadow="0">
       <root>
@@ -513,7 +513,7 @@
         </mxCell>
         <mxCell id="uJNZsX1lDFCGBcx1JWo5-13" value="Implemented in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#6600CC;fontStyle=1" vertex="1" connectable="0" parent="uJNZsX1lDFCGBcx1JWo5-10">
           <mxGeometry x="-0.4834" relative="1" as="geometry">
-            <mxPoint x="-1" y="-53" as="offset" />
+            <mxPoint x="-1" y="-183" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NRbP3dCmvhBAydw920Gy-8" value="&lt;font color=&quot;#6600cc&quot;&gt;Task in backlog&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;fillColor=#FFFFFF;align=center;strokeColor=#6600CC;" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
@@ -568,7 +568,7 @@
         <mxCell id="uJNZsX1lDFCGBcx1JWo5-9" value="&lt;font color=&quot;#6600cc&quot;&gt;Monitor Data&lt;br&gt;Source A&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#663300;strokeColor=#6600CC;fillColor=#FFFFFF;fontStyle=1" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
           <mxGeometry x="410" y="-220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uJNZsX1lDFCGBcx1JWo5-15" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#6600cc&quot;&gt;&amp;nbsp; &amp;nbsp;Add attack monitoring&lt;br&gt;&amp;nbsp;to field &#39;temperature&#39;&lt;br&gt;&amp;nbsp;coming from&amp;nbsp;&lt;br&gt;Data Source A&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;fillColor=#FFFFFF;align=center;strokeColor=#6600CC;" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
+        <mxCell id="uJNZsX1lDFCGBcx1JWo5-15" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#6600cc&quot;&gt;&lt;i&gt;&amp;nbsp; &amp;nbsp;Add attack monitoring&lt;br&gt;&amp;nbsp;to field &#39;temperature&#39;&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=12;fillColor=#FFFFFF;align=center;strokeColor=#6600CC;" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
           <mxGeometry x="385" y="-120" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uJNZsX1lDFCGBcx1JWo5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontSize=12;fontColor=#6600CC;endArrow=none;endFill=0;strokeColor=#F49731;strokeWidth=2;" edge="1" parent="0XBsOeczjr9yUr7WlAUg-1" target="uJNZsX1lDFCGBcx1JWo5-15">
