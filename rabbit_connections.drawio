@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T21:22:38.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Lc9X_RDEziPjLUTn3rYg" version="18.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-09T21:23:05.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3GSUMAzXkgXvYbYw2-Am" version="18.2.1" type="github" pages="3">
   <diagram id="jIUITmyzeD87ZEfBDrSX" name="Page-1">
     <mxGraphModel dx="1998" dy="1233" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="469" math="0" shadow="0">
       <root>
@@ -557,7 +557,7 @@
         <mxCell id="d1to6e1eBM14m1zMtnS6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
           <mxGeometry x="680" y="-440" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="d1to6e1eBM14m1zMtnS6-2" value="Operation Phase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#6600CC;fontStyle=1" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
+        <mxCell id="d1to6e1eBM14m1zMtnS6-2" value="Sys. Operation Phase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#6600CC;fontStyle=1" vertex="1" parent="0XBsOeczjr9yUr7WlAUg-1">
           <mxGeometry x="680" y="-430" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
